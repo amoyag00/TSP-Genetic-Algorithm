@@ -1,0 +1,12 @@
+<Parameters>
+	<encondingType>permutation</encondingType>
+	<crossRate>0.8</crossRate>
+	<mutationRate>0.8</mutationRate>
+	<populationSize>100</populationSize>
+	<crossType>pmx</crossType>
+	<mutationType>swap</mutationType>
+	<parentSelectionType k="5">tournament</parentSelectionType>
+	<survivorSelectionType elitism="1">generational</survivorSelectionType>
+	<terminationCondition numberGenerations="2000">generations</terminationCondition>
+	<fileName>TSPInstance100.xml</fileName>
+</Parameters>
